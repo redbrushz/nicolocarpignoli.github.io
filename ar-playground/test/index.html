@@ -1,0 +1,44 @@
+
+<html>
+
+<script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+<script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+<script src="https://rawgit.com/ngokevin/aframe-layout-component/master/dist/aframe-layout-component.min.js">	</script>
+
+
+<body style='margin : 0px; overflow: hidden;'>
+    <a-scene>
+<a-entity class ='ignoreTemplate' layout="type:box; margin:0.08; column:1" position="0 0 -5"
+                scale="2 2 2">
+
+
+				<a-entity 
+                      scale="0.3 0.3 0.3"
+                      class="text2"
+                      text="color: white; wrapCount:12; width: 2; lineHeight: 28; align: left; 
+                      value: SHORT MOVIE;  
+                      font: ./fonts/Edo.fnt; 
+                      fontImage: ./fonts/Edo.png" >
+        		</a-entity>
+
+		<a-entity class="shape1"
+                      
+                      geometry="primitive: plane; width: 1.15; height: 0.006"
+                      material="color: red">
+				</a-entity>
+
+                <a-entity 
+                      scale="0.4 0.4 0.4"
+                      class="text1"
+                      text="color: white; wrapCount:10; width: 3; lineHeight: 28;align: left; 
+                      value: A Trek To The Himalayas That is going to br djsnkd djkkjmnv f;
+                      font: ./fonts/Aleo.fnt; 
+                      fontImage:./fonts/Aleo.png" >
+                </a-entity>             
+  </a-entity>
+        <a-sky color="#000"></a-sky>
+    <a-entity camera look-controls></a-entity>
+    </a-scene>
+</body>
+
+</html>
